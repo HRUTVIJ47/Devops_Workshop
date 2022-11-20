@@ -5,7 +5,7 @@ on:
  pull_request:
   branches: ['master']
  workflow_dispatch: 
-jobs: 
+ jobs: 
   job1: 
    env: 
     JOB1_VARIABLE: "Variable Job1"
